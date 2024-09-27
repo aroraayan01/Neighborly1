@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Additional Colors -->
+    <color name="dark_blue">#00008B</color>
+
+    <color name="light_blue">#ADD8E6</color>
+    <color name="red">#B00020</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="material_green_500">#4CAF50</color>
+    <!-- Background Color -->
+    <color name="background_color">#FFFFFF</color>
+
+    <color name="primaryColor">#000000</color> <!-- Dark color for text -->
+    <color name="editTextBackground">#F0F0F0</color> <!-- Light gray background for input fields -->
+    <color name="buttonBackground">#007BFF</color> <!-- Blue background for the button -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text for the button -->
+
+</resources>

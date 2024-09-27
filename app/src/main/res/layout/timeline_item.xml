@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Vertical line for timeline -->
+    <View
+        android:id="@+id/timeline_line"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/material_green_500" />
+
+    <!-- Circle for timeline -->
+    <View
+        android:id="@+id/timeline_circle"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/circle_background" /> <!-- You can define this drawable -->
+
+    <!-- Event text -->
+    <TextView
+        android:id="@+id/event_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Event Name" />
+</LinearLayout>
